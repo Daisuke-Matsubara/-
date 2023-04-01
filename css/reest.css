@@ -110,9 +110,10 @@ h5{
 }
 
 .bluebox{
-    height: 100px;
+    height: 120px;
     text-align: left;
     border: solid 5px blue;
+    padding: 5px;
     margin: 10px;
     position: relative;
 }
@@ -131,6 +132,32 @@ h5{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.redbox2{
+    width: 60%;
+    border:solid 5px red;
+}
+
+.bluebox2{
+    width: 97%;
+    text-align: left;
+    display: flex;
+    border: solid 5px blue;
+    margin: auto;
+    padding: 10px;    
+}
+
+.yellowbox{
+    width: 70%;
+    border: solid 5px yellow;
+}
+
+.cstmr{
+    width: 50%;
+    margin-top: 15px;
+    margin-right: 15xp;
+    margin-bottom: 15px;
 }
 
 .ex5{
