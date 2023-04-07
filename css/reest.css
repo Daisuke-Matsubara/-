@@ -99,6 +99,7 @@ h5{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 20px auto;
     border:solid 5px red;
 }
 
@@ -129,14 +130,14 @@ h5{
 .graph{
     width: 50%;
     display: block;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
 .redbox2{
     width: 60%;
     border:solid 5px red;
+    align-content: space-evenly;
+    margin: 20px auto;
 }
 
 .bluebox2{
@@ -144,13 +145,20 @@ h5{
     text-align: left;
     display: flex;
     border: solid 5px blue;
-    margin: auto;
+    margin: 10px auto;
     padding: 10px;    
 }
 
 .yellowbox{
-    width: 70%;
     border: solid 5px yellow;
+}
+
+.customer{
+    background-color: aqua;
+}
+
+.customer span{
+    font-size: 25px;
 }
 
 .cstmr{
@@ -163,18 +171,34 @@ h5{
 .ex5{
     font-size: 20px;
     background-color: lightgray;
-    padding: 5px; 
+    padding: 10px; 
+}
+
+.ex6{
+    font-size: 15xp;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1em;
 }
 
 .FAQ{
-    width: 70%;
+    width: 900px;
+    margin: 20px auto;
+    background-color: aqua;
+}
+
+.ex7{
+    font-size: 15px;
+    line-height:3;
 }
 
 .footer{
     width: 70%;
     display: flex;
+    margin: 20px auto;
     background-color: lightgray;
 }
+
 
 .footerlogo{
     width: 20%;   
