@@ -184,7 +184,6 @@ h5{
 .FAQ{
     width: 900px;
     margin: 20px auto;
-    background-color: aqua;
 }
 
 .ex7{
@@ -193,13 +192,17 @@ h5{
 }
 
 .footer{
-    width: 70%;
+    width: 75%;
     display: flex;
     margin: 20px auto;
+    padding: 20px 100px;
     background-color: lightgray;
 }
 
+.footer1{
+    width: 50%;
+}
 
 .footerlogo{
-    width: 20%;   
+    width: 60%;   
 }
