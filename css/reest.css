@@ -76,7 +76,7 @@ h5{
 .background1{
     display: block;
     margin: auto;
-    width: 70%;
+    width: 75%;
 }
 
 .outlineImg{
@@ -92,6 +92,13 @@ h5{
 
 .outline2{
     display: flex;
+}
+
+.outline3{
+    position: absolute;
+    left: 50%;
+    top:45%;
+    transform: translate(-50%,-50%);
 }
 
 .redbox{
@@ -134,7 +141,7 @@ h5{
 }
 
 .redbox2{
-    width: 60%;
+    width: 100%;
     border:solid 5px red;
     align-content: space-evenly;
     margin: 20px auto;
