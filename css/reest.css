@@ -141,7 +141,7 @@ h5{
 }
 
 .redbox2{
-    width: 100%;
+    width: 1000px;
     border:solid 5px red;
     align-content: space-evenly;
     margin: 20px auto;
@@ -154,6 +154,52 @@ h5{
     border: solid 5px blue;
     margin: 10px auto;
     padding: 10px;    
+}
+
+.bluebox3{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    border: solid 5px blue;
+}
+
+.bluebox4{
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+    padding-bottom: 30px;
+    border: solid 5px blueviolet;
+}
+
+.bluebox5{
+    height: 200px;
+}
+
+.tomato{
+    height: 250px;
+    display:inline-block;
+    margin: 20px auto;
+}
+
+.eggplant{
+    height: 250px;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.btn{
+    color: black;
+    border: solid 2px black;
+    padding:10px 70px;
+    text-decoration: none;
+}
+
+.puroduct_under{
+    margin: 10px auto;
+}
+
+.online{
+    border: solid 2px black;
 }
 
 .yellowbox{
@@ -196,6 +242,11 @@ h5{
 .ex7{
     font-size: 15px;
     line-height:3;
+}
+
+.ex8{
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .footer{
