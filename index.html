@@ -3,17 +3,27 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="css/reest.css">
+  <link rel="stylesheet" href="css/smartStyle.css">
   <title>HPを作ろう</title>
 </head>
 
 <body>
   <!-- ヘッダー -->  
-  
-  <div class="header">
-    <div><img src="images/logo.png" alt="ロゴ" class="headerImg"></div>
-    <div>
+  <header>
+    <div class="logo">
+      <div><img src="images/logo.png" alt="ロゴ" class="headerImg"></div>
+
+     <!--ハンバーガーのコード-->
+    <div id="hamburger">
+      <dic class="icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </dic>
+    </div>
+     <nav class="sm">
       <ul>
         <li><a href="">ABOUT</a></li>
         <li><a href="">CUSTOMER REVIEWS</a></li>
@@ -21,8 +31,22 @@
         <li><a href="">FAQ</a></li>
         <li><a href="">ONLINE STORE</a></li>
       </ul>
+     </nav>
+
+
+
+
+      <nav class="pc">
+        <ul>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">CUSTOMER REVIEWS</a></li>
+          <li><a href="">PRODUCTS</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">ONLINE STORE</a></li>
+        </ul>
+     </nav>
     </div>
-  </div>
+  </header>
 
   <!-- メイン部分 -->
   <div class="main">
