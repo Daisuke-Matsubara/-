@@ -2,17 +2,119 @@
     .sm{
         display: none;
     }
-    
 }
 
 @media screen and (max-width:767px) {
+    .pc{
+        display: none;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+
+    .ex1{
+        font-size: 18px;
+        margin: 20px;
+        text-align: center;
+
+    }
+
+    /*.ex1 span{
+        font-size: 30px;
+    }*/
+    
+    .ex2{
+        font-size: 12px;
+        line-height: 3;
+    }
+    
+    /*.ex3{
+        font-size: 30px;
+        text-align: center;
+    }*/
+
+
+    .outline1{
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    .outlineImg{
+        width: 30%;
+        height: 30%;
+    }
+
+    .outline3{
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top:65%;
+        transform: translate(-50%,-50%);
+    }
+
+    .redbox2{
+        width: 100%;
+        border:solid 2px red;
+        align-content: space-evenly;
+        margin: 10px auto;
+    }
+
+    .customer span{
+        font-size: 20px;
+    }
+
+    .customer{
+        font-size: 15px;
+    }
+
+    .cstmr{
+        width: 40%;
+        /*margin-top: 15px;
+        margin-right: 15xp;
+        margin-bottom: 15px;*/
+    }
+
+    .ex5{
+        font-size: 18px;
+        background-color: lightgray;
+        padding: 5px; 
+    }
+
+    .ex7{
+        font-size: 14px;
+        line-height:2;
+    }
+
+    .footer{
+        width: 9    0%;
+        display: flex;
+        margin: 15px auto;
+        padding: 15px 90px;
+        background-color: lightgray;
+    }
+    
+    .footer1{
+        width: 80%;
+    }
+    
+    .footerlogo{
+        width: 60%;   
+    }
+
     
 }
 
 @media screen and (max-width:479px) {
-    /*.pc{
+    .pc{
         display: none;
-    }*/
+    }
+    .wrapper{
+        width: 100%;
+        /*font-size: 10px;*/
+    }
 
     #hamburger {
         background-color: rebeccapurple;
@@ -33,5 +135,14 @@
         transition: ease 0.75s;
 
     }
+
+    .headerImg{
+        display: block;
+        width: 60%;
+    }
+
+    .ex3{
+        font-size: 5px;
+    }    
 
 }

@@ -1,9 +1,16 @@
 *,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
 header{
     height: 60px;
-    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
     padding: 0px 15px;
-    /*background-color: aqua;*/
+    background-color: yellow;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: aqua;
 }
 
 .logo{
@@ -55,7 +62,7 @@ li{
 
 .ex2{
     font-size: 15px;
-    line-height: 5;
+    line-height: 3;
 }
 
 .ex3{
@@ -112,17 +119,17 @@ h5{
 }
 
 .redbox{
-    width: 1000px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px auto;
-    border:solid 5px red;
+    border:solid 2px red;
 }
 
 .greenbox{
     width: 45%;
-    border: solid 5px green;
+    border: solid 2px green;
     margin: 10px;
     text-align: center;
 }
@@ -130,7 +137,7 @@ h5{
 .bluebox{
     height: 120px;
     text-align: left;
-    border: solid 5px blue;
+    border: solid 2px blue;
     padding: 5px;
     margin: 10px;
     position: relative;
@@ -152,7 +159,7 @@ h5{
 
 .redbox2{
     width: 1000px;
-    border:solid 5px red;
+    border:solid 2px red;
     align-content: space-evenly;
     margin: 20px auto;
 }
@@ -161,7 +168,7 @@ h5{
     width: 97%;
     text-align: left;
     display: flex;
-    border: solid 5px blue;
+    border: solid 2px blue;
     margin: 10px auto;
     padding: 10px;    
 }
@@ -170,7 +177,7 @@ h5{
     width: 80%;
     margin: 20px auto;
     display: flex;
-    border: solid 5px blue;
+    border: solid 2px blue;
 }
 
 .bluebox4{
@@ -178,7 +185,7 @@ h5{
     width: 50%;
     margin: 10px;
     padding-bottom: 30px;
-    border: solid 5px blueviolet;
+    border: solid 2px blueviolet;
 }
 
 .bluebox5{
@@ -213,7 +220,7 @@ h5{
 }
 
 .yellowbox{
-    border: solid 5px yellow;
+    border: solid 2px yellow;
 }
 
 .customer{
@@ -245,7 +252,7 @@ h5{
 }
 
 .FAQ{
-    width: 900px;
+    width: 90%;
     margin: 20px auto;
 }
 
@@ -268,7 +275,7 @@ h5{
 }
 
 .footer1{
-    width: 50%;
+    width: 80%;
 }
 
 .footerlogo{
